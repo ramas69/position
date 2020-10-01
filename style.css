@@ -1,0 +1,68 @@
+.carre{
+    width:150px;
+    height:150px;
+    margin:5px;
+    display:inline-block;
+}
+/* Position statique */
+.bloc1{
+    background-color: aquamarine;
+}
+
+.bloc2{
+    background-color: red;
+}
+
+.bloc3{
+    background-color: yellow;
+}
+
+.bloc4{
+    background-color: blue;
+}
+
+/* Position relative */
+#relatif1{
+    position:relative;
+    top:30px;
+    border: 3px solid black;
+}
+
+#relatif2{
+    position:relative;
+    left:-30px;
+    border: 3px solid black;
+    bottom:-50px;
+}
+
+.image{
+    width:15%;
+    margin-top:30px;
+    display:block;
+}
+
+h2{
+    margin-top:80px;
+}
+
+/* Position absolute 1er cas */
+
+#absolute1{
+    position:absolute;
+    top:620px;
+    border: 5px solid black;
+}
+
+/* Position absolute 1er cas */
+.container{
+    border: 5px solid black;
+    height:300px;
+    position:relative;
+}
+
+#absolute2{
+    position:absolute;
+    border: 5px solid red;
+    top:20px;
+}
+
